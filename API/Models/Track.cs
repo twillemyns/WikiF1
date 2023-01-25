@@ -10,7 +10,7 @@ public class Track
     
     public string PictureUrl { get; set; }
     
-    public DateTime BeginYearInF1 { get; set; }
+    public string BeginYearInF1 { get; set; }
     
     public int NbRaces { get; set; }
     
