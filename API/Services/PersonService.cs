@@ -15,17 +15,25 @@ public static class PersonService
             new Person
             {
                 Id = 1, LastName = "Verstappen", FirstName = "Max", PictureUrl = "",
-                BirthDate = new DateTime(1997, 09, 30), TeamId = 1, RecordId = 1
+                BirthDate = new DateTime(1997, 09, 30),IsDriver = true, TeamId = 1, RecordId = 1
             },
             new Person
             {
                 Id = 2, LastName = "Pérez", FirstName = "Sergio", PictureUrl = "",
-                BirthDate = new DateTime(1990, 01, 26), TeamId = 1, RecordId = 2
+                BirthDate = new DateTime(1990, 01, 26),IsDriver = true , TeamId = 1, RecordId = 2
+            },
+            new Person
+            {
+                Id = 3, LastName = "Horner", FirstName = "Christian", PictureUrl = "",
+                BirthDate = new DateTime(1973, 11, 16),IsDriver = false , TeamId = 1, RecordId = 3
             },
         };
     }
 
     public static List<Person> GetAll() => Persons;
+    
+    public static List<Person> GetDrivers() => Persons.FindAll(p => p.IsDriver == true);
+    public static List<Person> GetTeamPrincipals() => Persons.FindAll(p => p.IsDriver == false);
 
     public static Person? Get(int id) => Persons.FirstOrDefault(p => p.Id == id);
 

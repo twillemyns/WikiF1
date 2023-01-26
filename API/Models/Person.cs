@@ -12,6 +12,8 @@ public class Person
     
     public DateTime BirthDate { get; set; }
     
+    public bool IsDriver { get; set; }
+    
     public int TeamId { get; set; }
     
     public int RecordId { get; set; }
