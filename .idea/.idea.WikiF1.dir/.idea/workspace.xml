@@ -5,13 +5,26 @@
     <projectFile profileName="IIS Express">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e1a6742-f8b9-4b29-8ed0-9ca9c750211b" name="Changes" comment="" />
+    <list default="true" id="4e1a6742-f8b9-4b29-8ed0-9ca9c750211b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net6.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net6.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net6.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net6.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net6.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net6.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net6.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net6.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net6.0/ref/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net6.0/ref/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net6.0/refint/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net6.0/refint/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/staticwebassets.pack.sentinel" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/API/Controllers/PersonController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Models/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Models/Record.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -21,6 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KoXLlqWisADJCuCOrbt1A05hG9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,6 +102,7 @@
       <workItem from="1674641860153" duration="39000" />
       <workItem from="1674644146360" duration="1691000" />
       <workItem from="1674645875803" duration="125000" />
+      <workItem from="1674727007109" duration="233000" />
     </task>
     <servers />
   </component>
